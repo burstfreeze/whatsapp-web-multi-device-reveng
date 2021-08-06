@@ -14,6 +14,8 @@ Debugtron allows us to `inspect element` on packaged Electron applications.
 
 Before you continue, run `npm install -g asar` which will help us extracting and packaging JS content.
 
+Before continuing, please run `npm -g install js-beautify` which will help us to beautify and reformat the JS files obtained from app.asar.
+
 ### Injecting JS into the app
 
 `cd` into a new folder and then run `asar extract [WA]../app.asar .`. For macOS with standard paths, you would do `asar extract /Applications/WhatsApp.app/Contents/Resources/app.asar .`
